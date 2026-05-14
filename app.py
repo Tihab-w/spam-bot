@@ -225,6 +225,8 @@ def server_error(e):
     }), 500
 
 if __name__ == "__main__":
+    import os
+    
     print("\n" + "=" * 60)
     print("SPAM CLASSIFIER AI - PRODUCTION SERVER")
     print("=" * 60)
@@ -241,4 +243,6 @@ if __name__ == "__main__":
     print("GET  /api/health")
     print("=" * 60)
     
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    # Use PORT from environment (for Render), default to 5000 locally
+    port = int(os.environ.get("PORT", 5000))
+    app.run(debug=False, host='0.0.0.0', port=port)
