@@ -1,0 +1,3 @@
+{"message": "Test message for feedback", "predicted": "SPAM", "correct": "LEGITIMATE", "timestamp": "2026-05-06T11:30:08.824636"}
+{"message": "You won prize , congratulation", "predicted": "SPAM", "correct": "SPAM", "timestamp": "2026-05-07T21:18:35.043500"}
+{"message": "URGENT: Your bank account has been compromised! Please verify your identity by sending your password...", "predicted": "SPAM", "correct": "SPAM", "timestamp": "2026-05-14T18:10:48.915914"}
