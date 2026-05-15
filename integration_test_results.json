@@ -1,17 +1,17 @@
 {
-  "total": 51,
-  "passed": 27,
-  "failed": 24,
-  "pass_rate": 52.94117647058824,
-  "total_time": 80.29949235916138,
+  "total": 47,
+  "passed": 45,
+  "failed": 2,
+  "pass_rate": 95.74468085106383,
+  "total_time": 78.7283103466034,
   "test_results": {
     "API Health Check": true,
-    "Single Classification": false,
+    "Single Classification": true,
     "Batch Classification": true,
     "Feedback Endpoint": true,
-    "Error Handling": false,
+    "Error Handling": true,
     "Spam Detection Accuracy": true,
-    "Performance Testing": false,
+    "Performance Testing": true,
     "Model Direct Import": true,
     "API Client Module": true
   }
